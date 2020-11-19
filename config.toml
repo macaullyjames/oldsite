@@ -1,0 +1,27 @@
+baseURL = "https://macaullyjames.com/"
+languageCode = "en-us"
+title = ""
+theme = "papermod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+ShowReadingTime = true
+
+[params.homeInfoParams]
+Title = "Hi there 👋"
+Content = "There's not much here now. But hey, at least there is a here."
+
+#[[params.socialIcons]]
+#name = "<platform 2>"
+#url = "<link2>"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
